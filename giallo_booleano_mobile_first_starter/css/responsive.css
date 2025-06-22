@@ -1,0 +1,37 @@
+/* Soluzione qui */
+@media screen and (min-width: 768px) {
+    #topbar {
+        justify-content: left;
+    }
+
+    main {
+        padding: 30px;
+    }
+
+    .recipe-origin {
+        display: inline;
+    }
+
+    .recipe-name {
+        font-weight: 900;
+    }
+
+    .recipe-info {
+        display: grid;
+    }
+
+    .social-networks button {
+        flex: 1;
+        width: 100%;
+    }
+
+    .ads {
+        display: block;
+    }
+
+    .presentation p img {
+        float: left;
+        margin-right: 20px;
+        margin-bottom: 10px;
+    }
+}
