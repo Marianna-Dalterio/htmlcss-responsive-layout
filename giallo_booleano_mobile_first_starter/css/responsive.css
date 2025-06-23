@@ -18,7 +18,14 @@
 
     .recipe-info {
         display: grid;
+
     }
+
+    .quick-notes ul {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
 
     .social-networks button {
         flex: 1;
@@ -33,5 +40,49 @@
         float: left;
         margin-right: 20px;
         margin-bottom: 10px;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .recipe-name {
+        font-weight: 2000;
+    }
+
+    .recipe-info {
+        display: grid;
+    }
+
+    .quick-notes ul {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .recipe-card {
+        display: flex;
+        gap: 30px;
+
+        .recipe-video {
+            flex: 2;
+            max-width: 100%;
+        }
+
+        .recipe-info {
+            flex: 1;
+        }
+    }
+
+    .social-networks .label {
+        display: inline;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 30px;
+    }
+
+    footer address {
+        text-align: left;
     }
 }
